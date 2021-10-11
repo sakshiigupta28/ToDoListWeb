@@ -1,0 +1,24 @@
+.add-list-card{
+    border: 2px solid #F96C6C ;
+    border-radius: 10px;
+    width: 450px;
+    height: 280px;
+    margin-top: 200px;
+    margin-left: 550px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 8px gray, -0px -0px -0px;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.write-note{
+    border: 2px solid #F96C6C;
+    margin-top: 30px;
+    height: 40px;
+    width: 95%;
+    border-radius: 8px;
+}

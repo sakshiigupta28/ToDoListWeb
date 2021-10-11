@@ -1,0 +1,62 @@
+.header-1{
+    font-weight: 600;
+    font-size: 55px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.header-1::before{
+    content: ' ';
+    border-top: 5px solid;
+    margin: 0px 20px 0px 0px;
+    flex: 1 0 20px ;
+    color: lightgray;
+}
+
+.header-1::after{
+    content: ' ';
+    border-top: 5px solid;
+    margin: 0px 20px 0px 0px;
+    flex: 1 0 20px ;
+    color: lightgray;
+}
+
+.card{
+    border: 2px solid #F96C6C ;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    margin-top: 70px;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 2px 2px 8px gray, -0px -0px -0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.box-heading-2{
+    font-size: 30px;
+    color: #F96C6C;
+    margin-top: 18px;
+    margin-bottom: auto;
+    border-bottom:#F96C6C ;
+    text-decoration: underline solid darkgrey;
+}
+
+.back{
+    color: darkgrey;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 47px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
