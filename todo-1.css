@@ -26,6 +26,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.main-box{
+    display: inline;
+    align-items: center;
+    
+}
+
 
 
 .heading1{
@@ -34,7 +40,7 @@
     display: inline-block; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    margin: auto;
+    margin-left: 150px;
 }
 
 .heading2{
@@ -54,7 +60,8 @@
     display: inline-block; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: darkgrey;
-    margin-left: 900px;
+    margin-left: 600px;
+   
 }
 
 .image{
@@ -76,8 +83,7 @@
     border-radius: 10px;
     width: 200px;
     height: 300px;
-    margin-top: 70px;
-    margin-left: 100px;
+    margin-left: 150px;
     margin-right: 100px;
     text-align: center;
     display: inline-flex;
@@ -94,6 +100,7 @@
     align-items: center;
     border-bottom:#F96C6C ;
     margin: auto;
+    width:85%;
     text-decoration: underline solid darkgrey;
 }
 
@@ -105,7 +112,7 @@
 }
 
 .check-box{
-    text-align: start;
+    text-align: center;
     font-size: 17px;
 }
 
@@ -151,5 +158,6 @@
     filter: blur(3px);
     pointer-events: none;
     user-select: none;
-    position: absolute;
+    position: relative;
+    
 }
