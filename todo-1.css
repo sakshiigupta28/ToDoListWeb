@@ -158,6 +158,7 @@
     filter: blur(3px);
     pointer-events: none;
     user-select: none;
-    position: relative;
+    position: absolute;
+    margin-left: 560px;
     
 }
