@@ -162,3 +162,12 @@
     margin-left: 560px;
     
 }
+
+
+.blur-box1{
+    filter: blur(3px);
+    pointer-events: none;
+    user-select: none;
+    position: absolute;
+   
+}
